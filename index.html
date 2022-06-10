@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Home</title>
+   <link rel="stylesheet" href="style/about.css">
+   <link rel="stylesheet" href="style/newsletter.css">
+
+   <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"></script>
+   
+   <!-- load the header and footer using jquery at the onset of the page load -->
+   <script>
+      $(function () {
+         $("nav").load("html-partitions/nav.html");
+         $("footer").load("html-partitions/footer.html");
+      });
+   </script>
+
+   <!-- Google Font faimlies Trispace font -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Trispace:wght@400;500;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+   <header>
+      <nav>
+         <!-- loaded from jquery -->
+      </nav>
+      <!-- divide the banner for the newsletter -->
+      <div class="newsletter-banner">
+         <h1>SBI3U</h1>
+         <h1>Gr. 11 University Biology</h1>
+         <a href="#feature" class="btn">Begin Lesson</a>
+
+
+         <!-- a section of asteroid images of varying size to be animated up the page -->
+         <div class="asteroids">
+            <img src="media/newsletter/microscope.png" alt="microscope">
+            <img src="media/newsletter/bird.png" alt="bird">
+            <img src="media/newsletter/dna.png" alt="dna">
+            <img src="media/newsletter/microscope.png" alt="microscope">
+            <img src="media/newsletter/bird.png" alt="bird">
+            <img src="media/newsletter/dna.png" alt="dna">
+            <img src="media/newsletter/microscope.png" alt="microscope">
+         </div>
+      </div>
+   </header>
+         <!-- section for main article with image -->
+         <section class="feature-content" id="feature">
+            <div class="feature-row">
+               <div class="feature-left">
+                  <img src="media/newsletter/scientific-method.png" alt=" An astronaut hovers above the earth">
+                  <h2>A Guiding Philosophy - The Scientific Method</h2>
+                  <p>The <u>scientific method</u> makes no initial assumptions, only careful observations regarding natural phenomena.</p>
+                  <br>
+                  <p>A <u>phenomenon</u> is a natural or artificial event, in the broadest of senses. For the purposes of this course, we will consider an event to be the biological entity, that has a momentary existence, much like any other event we observe.</p>
+                  <br>
+                  <p>If there is a <u>pattern</u> in these observations, we may make generalizations in concise statements called natural laws, which are derived through this inductive process. 
+                  </p>
+                  <br>
+                  <p>
+                     That is to say, <u>inductive logical processes</u>, in a loose sense, involve making a generalization or conclusion from the set of data. 
+                  </p>
+                  <br>
+                  <p>
+                     The <u>natural laws</u> are often very simple verbal, or better yet, mathematical statements. They are well- established theories that have both explanatory and predictive powers as well. This is the ultimate goal of the scientific method. 
+                  </p>
+                  <br>
+                  <p>Experimentation is a crucial component of verifying inductive reasoning. </p>
+                  <br>
+                  <p>
+                     We design our experiments as a means to test our intial notion, that is the <u>hypothesis</u>. Thereby, allowing for its acceptance or rejection without bias.
+                  </p>
+                  <br>
+                  <p>The scientific method, used in our study of biology, somewhat <u>contrasts</u> the deductive logical processes often encountered in more precise disciplines such as mathematics.</p>
+                  <br>
+                  <p>
+                  <u>Deductive logical processes </u>have certain conclusions that logically follow from established and known premises. 
+                  </p>
+                  <br>
+                  <p>
+                  Let us begin by using the scientific method as a heuristic to begin understanding some of the early developments in biology, that lay the groundwork for the intensive discipline it is today.                      
+                  </p>
+                  <br>
+                  <p>
+                     In the investigation below, let us investigate, <u>does the presence of capsaicin in chilies deter some predators but not others? </u>
+                  </p>
+
+
+
+               </div>
+         
+
+
+            <!--  Three tables of interesting information on space-->
+               <div class="feature-right">
+                  <h3>Biological Timeline</h3>
+                  <div>
+                     <span> In the year 1500 ... 
+                        <br>
+                        Leonardo Da Vinci creates anatomical drawings from his dissections of the human body. </span>
+                  </div>
+                  <div>
+                     <span>In the year 1628...
+                        <br> William Harvey describes the anatomical function of the heart and the circulation of blood in animals. </span>
+                  </div>
+                  <div>
+               
+                     <span>In the year 1674 ... 
+                        <br>
+                        Anton van Loeuwenhoek fashions more elaborate lenses to increase the microscope's magnification to visualize, red blood cells, sperm, and bacteria. This led to the development of the <u> cell theory.</u>
+                     </span>
+                  </div>
+                  <div>
+                   
+                     <span>In the year 1809 ... 
+                        <br>
+                        Jean Baptiste Lamarck is the first to propose the theory of evolution based upon the inheritance of acquired characteristics. 
+                     </span>
+                  </div>
+                  <div>
+               
+                     <span>In the year 1864 ... 
+                        <br>
+                        Louis Pasteur  refutes the theory of spontaneous generation in his landmark experiment. 
+                     </span>
+                  </div>
+                  <div>
+                 
+                     <span>In the year 1859...
+                        <br>
+                        Charles Darwin proposes the natural selection as the mechanism for the theory of Evolution  </span>
+                  </div>
+                  <div>
+                     
+                     <span> In the year 1866...
+                        Gregor Mendel revolutionsizes genetics with his experiments on heritability in pea plants 
+                     </span>
+                  </div>
+                  <div>
+                   
+                     <span>In the year 1898 ...
+                        <br>
+                         Martinus Beljerink discovers the virus, a somewhat living entity much smaller than the known bacterium at the time. 
+                     </span>
+                  </div>
+                  <div>
+               
+                     <span>In the year 1928...
+                        <br>
+                        Alexander Fleming discovers penicillin. 
+                     </span>
+                  </div>
+
+                  <div>
+                  
+                     <span>In the year 1953 ...
+                        <br>
+                        Watson and Crick deduce the helical structure of DNA. 
+
+                     </span>
+                  </div>
+
+
+                  <br>
+
+
+
+                  <br>
+
+
+
+               </div>
+            </div>
+
+           
+         </section>
+
+
+
+   <!-- apply the same class from the about section for the short samples of articles provided with links to the registration page -->
+      <section class="about-us" id="articles">
+
+         <!-- first sample article -->
+         <div class="about-row">
+            <div class="about-col">
+               <h2>Experimental Setup - Part A</h2>
+               <p>Let us first hypothesize that the cactus mouse is deterred by chillies. We set up an experiment dispersing hackberries as a control, and two types of chilies, non-pungent and pungent.
+               </p>
+
+            </div>
+            <div class="about-col">
+               <img src="media/newsletter/capsaicin-1.png" alt="A man watches the partially complete james webb telescope">
+            </div>
+         </div>
+         <!-- second sample article -->
+         <div class="about-row">
+            <div class="about-col">
+               <h2>Experimental Setup Part B</h2>
+               <p>Similarly we set up an experiment for the curved bill thrasher, a bird. 
+               </p>
+            </div>
+            <div class="about-col">
+               <img src="media/newsletter/capsaicin-2.png" alt="A child lays back and watches the stars">
+            </div>
+         </div>
+         <!-- third sample article -->
+         <div class="about-row">
+            <div class="about-col">
+               <h2>Results of Experiment Part A </h2>
+               <p>On a histogram we observe the frequency of the fruit consumed by each and note that the cactus mouse avoids the chilies almost entirely. 
+               </p>
+            </div>
+            <div class="about-col">
+               <img src="media/newsletter/capsaicin-3.png" alt="Baked goods in the shape of space objects">
+            </div>
+         </div>
+         <!-- fourth sample article -->
+         <div class="about-row">
+            <div class="about-col">
+               <h2>Results of Experiment Part B</h2>
+               <p>In contrast, the curve billed thrasher seems to slightly prefer the chilies, in fact. 
+               </p>
+            </div>
+            <div class="about-col">
+               <img src="media/newsletter/capsaicin-4.png" alt="A rocket launches from the ground.">
+            </div>
+         </div>
+         <!-- fifth sample article -->
+         <div class="about-row">
+            <div class="about-col">
+               <h2>Discussion</h2>
+               <p>We conclude that our original hypothesis was correct and that it appears chillies are efffective in the deterrance of some preedators but not all. Can you design an experiment to test the hypothesis that the use of capsaicin in cooking is an adaptation resulting from its abiliity to kill disease causing bacteria? What laboratory apparatus could you use to design such an experment? We will investigate this further in the next lesson as a means to introduce some of the critical biological instrumentation. 
+
+               </p>
+         
+            </div>
+            <div class="about-col">
+               <img src="media/newsletter/peppers.jpg" alt="Arm extends to satellite from a space vehicle">
+            </div>
+         </div>
+      </section>   
+   <footer>
+      <!-- loaded by the jquery -->
+   </footer>
+</body>
+</html>

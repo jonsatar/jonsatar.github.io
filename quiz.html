@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Home</title>
+   <link rel="stylesheet" href="style/about.css">
+
+
+   <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"></script>
+
+   <!-- load the header and footer using jquery at the onset of the page load -->
+   <script>
+      $(function () {
+         $("nav").load("html-partitions/nav.html");
+         $(".quiz").load("html-partitions/quiz.html");
+      });
+   </script>
+
+   <!-- Google Font faimlies Trispace font -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Trispace:wght@400;500;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+   <header>
+      <nav>
+         <!-- loaded from jquery -->
+      </nav>
+      <!-- divide the banner for the newsletter -->
+   </header>
+  
+
+   <br>
+   <br>
+   <br>
+
+   <div class="quiz" id="interactive-quiz">
+      <!-- loaded by the jquery -->
+   </div>
+
+      <br>
+      <br>
+      <br>
+
+</body>
+
+</html>
